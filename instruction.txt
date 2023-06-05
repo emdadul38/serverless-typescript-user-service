@@ -1,0 +1,21 @@
+step 01: 
+    sls install with project-name 
+
+step 02: install node package depandency 
+    npm init -y
+
+step 03:
+    sls plugin install --name serverless-offline 
+    ssl plugin install --name serverless-plugin-typescript 
+
+step 04: for typescript project configurations 
+    tsc --init 
+
+step 05: install dependency package
+    npm install --dev typescript ts-node  
+    npm install aws-lambda
+    npm install --dev @types/aws-lambda
+
+
+
+$yarn add tsyringe reflect-metadata
